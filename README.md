@@ -20,7 +20,7 @@ CRM desarrollado en React y Vite. Simplifica el proceso de dar de alta clientes.
 
 <a href="https://www.linkedin.com/in/orlay-andres-molina-gomez-71b470241/" target="_blank">
   
-![linkedin](https://github.com/OrlayMolina/CRM-react/assets/111409267/8960f837-fe37-46fa-9d14-0465de2e2d60)
+![linkedin](https://github.com/OrlayMolina/CRM-React/assets/111409267/96765dc0-2fab-4585-878d-8829f5126f97)
 
 
 </a>
@@ -30,7 +30,7 @@ CRM desarrollado en React y Vite. Simplifica el proceso de dar de alta clientes.
 <a href="https://orlay-andres-molina-proyecto10.netlify.app/" target="_blank">
 
 
-![react](https://github.com/OrlayMolina/CRM-react/assets/111409267/740015c2-9d4b-4ea3-aa2a-e87c139e29c8)
+![react](https://github.com/OrlayMolina/CRM-React/assets/111409267/4cd3b5bd-fb2c-4bcd-8e62-cc34f60e309e)
 
 
 </a>
