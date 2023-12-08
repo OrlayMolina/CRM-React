@@ -8,6 +8,7 @@ export async function action({request}){
 
     const datos = Object.fromEntries(formData);
     
+    const email = formData.get('email');
     
     //validación de datos
     const errores = [];
@@ -15,6 +16,11 @@ export async function action({request}){
         errores.push('Todos los campos son obligatorios');
     }
 
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$A-Z^-~/;
+    if (!regex.test(email)) {
+        errores.push('El email no es válido');
+    }
+    
     // Retornar los errores
     if(Object.keys(errores).length){    
         return errores;
@@ -48,6 +54,7 @@ function NuevoCliente() {
 
                 <Form
                     method='post'
+                    noValidate
                 >
                     <Formulario />
 
