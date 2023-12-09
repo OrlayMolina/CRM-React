@@ -5,9 +5,7 @@ import Error from '../components/Error';
 export async function action({request}){
 
     const formData = await request.formData();
-
     const datos = Object.fromEntries(formData);
-    
     const email = formData.get('email');
     
     //validación de datos
@@ -24,7 +22,7 @@ export async function action({request}){
         }
         
       };
-      
+
       validarEmail(email);
     
     // Retornar los errores
