@@ -23,11 +23,12 @@
       "empresa": "Globant"
     },
     {
-      "id": "4",
       "nombre": "Miguel",
-      "telefono": 3127548963,
+      "empresa": "Ferreteria la 18",
       "email": "miguel@miguel.com",
-      "empresa": "Mercado Libre"
+      "telefono": "3127548963",
+      "notas": "Cambio de proveedor",
+      "id": "4"
     },
     {
       "id": "5",
