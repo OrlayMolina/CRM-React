@@ -4,3 +4,9 @@ export async function obtenerClientes(){
 
     return result;
 }
+
+export async function agregarCliente(datos){
+
+    console.log(datos);
+
+}

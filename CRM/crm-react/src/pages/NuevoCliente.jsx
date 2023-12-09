@@ -1,6 +1,7 @@
 import { useNavigate, Form, useActionData } from 'react-router-dom';
 import Formulario from '../components/Formulario';
 import Error from '../components/Error';
+import { agregarCliente } from '../data/clientes';
 
 export async function action({request}){
 
@@ -29,6 +30,8 @@ export async function action({request}){
     if(Object.keys(errores).length){    
         return errores;
     }
+
+    agregarCliente(datos);
 
     return {};
 }
