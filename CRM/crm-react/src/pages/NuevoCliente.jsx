@@ -63,7 +63,9 @@ function NuevoCliente() {
                     method='post'
                     noValidate
                 >
-                    <Formulario />
+                    <Formulario 
+                        cliente={{}}
+                    />
 
                     <input 
                         type="submit" 

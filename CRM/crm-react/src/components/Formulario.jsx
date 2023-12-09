@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Formulario = ({cliente}) => {
+const Formulario = ({cliente }) => {
 
 
     return (
