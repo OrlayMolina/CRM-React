@@ -1,9 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 function Cliente({ cliente }) {
 
+    const navigate = useNavigate();
+
     // Object Destructuring
-    const { nombre, empresa, email, telefono } = cliente;
+    const { nombre, empresa, email, telefono, id } = cliente;
 
     return (
         <tr className='border-b space-y-2'>
@@ -21,6 +24,7 @@ function Cliente({ cliente }) {
                 <button
                     type='button'
                     className='text-blue-600 hover:text-blue-700 uppercase font-bold text-sm'
+                    onClick={() => navigate(`/clientes/${id}/editar`)}
                 >
                     Editar
                 </button>
