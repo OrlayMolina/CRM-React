@@ -50,3 +50,5 @@ CRM desarrollado en React y Vite. Simplifica el proceso de dar de alta clientes.
 
 
 </a>
+
+* Pendiente de exponer la API para la persistencia de los datos.
